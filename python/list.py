@@ -79,6 +79,27 @@ thislist.clear()
 print(thislist) #this will print []
 '''
 
+# Example 8 --- any()
+# If any of the element of a sequence is True, it will return True
+list4=[10,0,None,False]  # Here, one element is True
+print(any(list4))
+list5=[0,0,None,False]
+print(any(list5))   # Here, all the elements are False
+
+print("--------------------------------------------")
+# Example 10 ---- enumerate()
+# Return an enumerate object. The Iterable must be a sequence, an iterator, or some other object which supports iteration
+# Enumerate returns the list of tuples. Tuples consists index values and items from the list
+
+animals = ['tiger', 'lion', 'deer']
+enumerateAnimals = enumerate(animals)
+print(type(enumerateAnimals))
+# converting to list
+print(list(enumerateAnimals))
+# changing the default counter
+enumerateAnimals = enumerate(animals, 10)
+print(list(enumerateAnimals))
+
 
 
 
