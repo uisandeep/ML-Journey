@@ -9,3 +9,9 @@ Every now and then check-ins are done which are my self practice, demos and cour
 Timelines:
 
 25th April, 2020 - Online course on Python started.
+23rd May, 2020 - Above course ended.
+6th June, 2020 - Submitted the course project.
+9th June, 2020 - Achieved the Eureka Certification for Python Programming.
+
+
+30th May, 2020 - Online course on ML using Python started.
